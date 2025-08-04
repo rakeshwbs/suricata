@@ -4,35 +4,54 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Network Threat Detection',
+    Svg: require('@site/static/img/Logo-Suricata-vert-R.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+          Suricata is an advanced, open-source engine that performs
+          real-time intrusion detection, inline intrusion prevention,
+          network security monitoring, and traffic logging. Built for
+          performance and deep packet inspection.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Master Web Application Security',
+    Svg: require('@site/static/img/burp-suite.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+          Burp Suite helps you focus on uncovering vulnerabilities while it automates the repetitive tasks.
+          From crawling to scanning, Burp streamlines your entire testing workflow so you can focus on what
+          matters — exploiting and reporting real security flaws.
+
+
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Powered by Open Security',
+    Svg: require('@site/static/img/opnsense.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+          OPNsense is built on hardened open-source technologies and
+          delivers enterprise-grade firewall, VPN, and IDS/IPS capabilities — all managed through a responsive,
+          web-based interface.
+          Scalable, secure, and trusted by professionals worldwide.
       </>
     ),
+
   },
+    {
+        title: 'Master Web Application Security',
+        Svg: require('@site/static/img/burp-suite.svg').default,
+        description: (
+            <>
+                Burp Suite helps you focus on uncovering vulnerabilities while it automates the repetitive tasks.
+                From crawling to scanning, Burp streamlines your entire testing workflow so you can focus on what
+                matters — exploiting and reporting real security flaws.
+            </>
+        ),
+    },
 ];
 
 function Feature({Svg, title, description}) {

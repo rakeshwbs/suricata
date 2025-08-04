@@ -194,6 +194,3 @@ sidebar_position: 1
 * Join OISF community
 
 ---
-
-Would you like to begin with **Phase 1: What is an IDS?**
-👉 Say **“next”** to begin.
